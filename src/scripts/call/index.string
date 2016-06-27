@@ -1,0 +1,30 @@
+<div class="Index">
+	<div class="container">
+		
+	</div>
+	<footer>
+		<ul>
+			<li class="active" action-type="activeTab" data-tag="home">
+				<b class="yo-ico">&#xe60a;</b>
+				<i>首页</i>
+			</li>
+			<li action-type="activeTab" data-tag="classify">
+				<b class="yo-ico">&#xe606;</b>
+				<i>分类</i>
+			</li>
+			<li>
+				<b class="yo-ico">&#xe689;</b>
+			</li>
+			<li action-type="activeTab" data-tag="find">
+				<b class="yo-ico">&#xe637;</b>
+				<i>发现</i>
+			</li>
+			<li action-type="activeTab" data-tag="more">
+				<b class="yo-ico">&#xe660;</b>
+				<i>更多</i>
+			</li>
+		</ul>
+	</footer>
+</div>
+
+

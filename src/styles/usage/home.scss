@@ -1,0 +1,201 @@
+@charset "utf-8";
+.Index{
+    .container{
+        .home{
+            width: 100%;
+            height: 100%;
+            @include flexbox();
+            @include flex-direction(column);
+            .head {
+                text-align: center;
+                height: .47rem;
+                line-height: .47rem;
+                font-size: .1rem;
+            }
+            .head img {
+                display: inline-block;
+                transition: transform 150ms;
+                -webkit-transition: transform 150ms;
+                height: .35rem;
+                width: .15rem;
+            }
+            .up {
+                transform: rotate(180deg) !important;
+                -webkit-transform: rotate(180deg) !important;
+            }
+            header{
+               width: 100%;
+               height: .44rem;
+               background: $color;
+               ul{
+                   @include flexbox();
+                   width: 100%;
+                   height: 100%;
+                   li{
+                        @include flex(1);
+                        text-align: center;
+                        line-height: .42rem;
+                        color: #fff;
+                        font-family: "微软雅黑";
+                        font-size: .2rem;
+                        &:nth-child(3){
+                            font-weight: bold;
+                            font-size: .22rem;
+                        }
+                   }
+               }
+           } 
+           .foot {
+                text-align: center;
+                height: .3rem;
+                line-height: .3rem;
+            }
+            .foot img {
+                display: inline-block;
+                /*transform: rotate(0deg);*/
+                /*-webkit-transform: rotate(0deg);*/
+                height: .25rem;
+                width: .25rem;
+            }
+           
+            .down img{
+                -webkit-animation: ani 0.8s infinite;
+                
+            } 
+            @-webkit-keyframes ani{
+                0%{transform: rotate(0deg);-webkit-transform: rotate(0deg);}
+                100%{transform: rotate(360deg); -webkit-transform: rotate(360deg);}
+            }
+           nav{
+               width: 100%;
+               height: .34rem;
+               background: #fff;
+               ul{
+                   @include flexbox();
+                   li{
+                       @include flex(1);
+                       text-align: center;
+                       line-height: .32rem;
+                       &.active{
+                           border-bottom: 2px solid $color;
+                           @include box-sizing(border-box);
+                           color: $color;
+                       }
+                   }
+               }
+           }
+           #sectSwiper{
+                background: #f4f4f4;
+                @include flex(1);
+                width: 100%;
+                #swiper-wrapper{
+                    width: 100%;
+                    .b{
+                        height: 100%;
+                        .sectCen{
+                        @include flexbox();                  
+                        width: 100%;
+                        .marginLeft{
+                           @include flex(1);
+                        }
+                        .content{
+                            @include flex(62);
+                                   .swiper-container{
+                                       width: 100%;
+                                       margin-top: .05rem;
+                                       .swiper-wrapper{
+                                           img{
+                                               width: 100%;
+                                               height: 1.34rem;
+                                           }
+                                           p{
+                                               width: 100%;
+                                               height: .25rem;
+                                               font-size: .1rem;
+                                               line-height: .24rem;
+                                               position: absolute;
+                                               bottom: 0;
+                                               left: 0;
+                                               color: #fff;
+                                               padding-left: .1rem;
+                                               background-color: rgba(0,0,0,0.5);
+                                               @include box-sizing(border-box); 
+                                           }
+                                       }
+                                       .swiper-pagination-bullets{
+                                           bottom: 0;
+                                           text-align: right;
+                                           .swiper-pagination-bullet{
+                                               width: .06rem;
+                                               height: .06rem;
+                                               margin: 0 .03rem;
+                                               background: #fff;
+                                               opacity: 0.8;
+                                               &.swiper-pagination-bullet-active{
+                                                   opacity: 1;
+                                                   background: #ff7900;
+                                               }
+                                           }
+                                       }
+                                   }
+                                .routine{
+                                   width: 100%;
+                                   padding: .02rem;
+                                   background: #FFF;
+                                   margin-top: .06rem;
+                                   @include box-sizing(border-box);
+                                   @include border(1px,#daefec,solid);
+                                   @include flexbox();
+                                   dl{
+                                       @include flex(3); 
+                                       @include flexbox();
+                                       dt{
+                                           @include flex(1);
+                                           img{
+                                               width: 100%;
+                                           }
+                                       }
+                                       dd{
+                                           @include flex(2);
+                                           font-size: .14rem;
+                                           margin: .06rem 0 0 .06rem;
+                                            span{
+                                                font-size: .1rem;
+                                                color: $color1;
+                                                display: block;
+                                            }
+                                            em{
+                                                display: inline-block;
+                                                img{
+                                                    width: .17rem;
+                                                }
+                                                b{
+                                                    font-size: .1rem;
+                                                    font-weight: normal;
+                                                    color: $color1;
+                                                }
+                                            }
+                                       }
+                                   }
+                                   .download{
+                                       @include flex(1);
+                                       img{
+                                           display: inline-block;
+                                           width: 45%;
+                                           margin-top: .23rem;
+                                       }
+                                   }
+                                }
+                            }
+                            .marginRight{
+                               @include flex(1);
+                            } 
+                        }
+                    }
+                    
+                }
+               
+            }          
+         }
+    }
+}

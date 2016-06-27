@@ -1,0 +1,25 @@
+<div class="hsContent">
+	<header>
+		<ul>
+			<li action-type="back"><img src="/kaleidoscope-story/images/drawable-xhdpi/discovery_back.png"/></li>
+			<li><img src="/kaleidoscope-story/images/drawable-hdpi/icon_love_write.png"/></li>
+			<li><img src="/kaleidoscope-story/images/drawable-hdpi/icon_share_write.png"/></li>
+		</ul>
+	</header>
+	<section spa-widget = "scroll">
+		<div>
+			<h4>{{title}}</h4>
+			<span>{{cname}}</span>
+			<p><img ms-src='imgsrc'/></p>
+			{{content}}
+		</div>
+		
+	</section>
+	<footer>
+		<ul>
+			<li><img ms-src='imgsrc'/></li>
+			<li>{{title}}</li>
+			<li><img src="/kaleidoscope-story/images/drawable-hdpi/icon_player_play.png"/></li>
+		</ul>
+	</footer>
+</div>

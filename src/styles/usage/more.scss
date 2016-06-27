@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+.more{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    @include flexbox();
+    @include flex-direction(column);
+    header{
+       width: 100%;
+       height: .44rem;
+       background: $color;
+       ul{
+           @include flexbox();
+           height: 100%;
+           li{
+                @include flex(1);
+                text-align: center;
+                line-height: .42rem;
+                color: #fff;
+                font-family: "微软雅黑";
+                font-size: .2rem;
+                &:nth-child(3){
+                    font-weight: bold;
+                    font-size: .22rem;
+                }
+           }
+       }
+    } 
+    .login{
+        width: 100%;
+        height: .8rem;
+        border-bottom: 1px solid #ccc;
+        @include flexbox();
+        .loginPer{
+            @include flex(3);
+            @include flexbox();
+            @include box-sizing(border-box);
+            dt{ 
+                @include flex(1);
+                 width: 100%;
+                height: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            dd{
+                margin: .1rem 0 0 .05rem;
+                @include flex(2);
+            }
+        }
+        .loginList{
+            @include flex(1);
+            @include flexbox();
+            @include align-items(center);
+            li{
+                width: .51rem;
+                height: .35rem;
+                text-align: center;
+                line-height: .34rem;
+                &:nth-child(1){
+                    background: $color;
+                    color: #fff;
+                }
+                &:nth-child(2){
+                    display: none;
+                }
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    section{
+        @include flex(1);
+        width: 100%;
+        height: 100%;
+        @include flexbox();
+        .marginLeft{
+            @include flex(1);
+        }
+        .content{
+            @include flex(62);
+            ul{
+                width: 100%;
+                margin-top: .08rem;
+                @include flexbox();
+                li{
+                    @include flex(8);
+                    height: .9rem;
+                    position: relative;
+                    span{
+                        display: block;
+                        width: 100%;
+                        height: .3rem;
+                        line-height: .3rem;
+                        text-align: center;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 0;
+                    }
+                }
+                li:nth-child(1){
+                    background: url(/kaleidoscope-story/images/drawable-hdpi/icon_more_download.png) no-repeat center center;
+                    background-size: cover;
+                    
+                }
+                li:nth-child(2){
+                    @include flex(1);
+                }
+                li:nth-child(3){
+                    background: url(/kaleidoscope-story/images/drawable-hdpi/icon_more_love.png) no-repeat center center;
+                    background-size: cover;
+                }
+                li:nth-child(4){
+                    @include flex(1);
+                }
+                li:nth-child(5){
+                   background: url(/kaleidoscope-story/images/drawable-hdpi/icon_more_set.png) no-repeat center center;
+                   background-size: cover;
+                }
+            }
+        }
+        .marginRight{
+            @include flex(1);
+        }
+    }
+}

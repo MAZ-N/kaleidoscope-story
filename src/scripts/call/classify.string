@@ -1,0 +1,190 @@
+<div class="home classify">
+	<header>
+		<ul>
+			<li><i></i></li>
+			<li><i>故事分类</i></li>
+			<li><i></i></li>
+		</ul>
+	</header>
+	<nav>
+		<ul>
+			<li class="active" action-type="active"><em>故事</em></li>
+			<li action-type="active"><em>儿歌</em></li>
+			<li action-type="active"><em>动画</em></li>
+			<li action-type="active"><em>童书</em></li>
+		</ul>	
+	</nav>
+	<div class="swiper-container" id="ifgSwiper">
+	    <div class="swiper-wrapper">
+<!--故事-->	<div class="swiper-slide" spa-widget="scroll">
+	        	<section class="ifySection">
+						<div class="marginLeft"></div>
+						<div class="content">
+							<ul>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+								<li></li>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+								<li></li>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+								<li></li>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+							</ul>
+							
+						</div>
+						<div class="marginRight"></div>	
+				</section>			       
+	        </div>
+	        <div class="swiper-slide" spa-widget="scroll">
+	        	<section class="ifySection">
+						<div class="marginLeft"></div>
+						<div class="content">
+							<ul>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+								<li></li>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+								<li></li>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+								<li></li>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+							</ul>
+							
+						</div>
+						<div class="marginRight"></div>	
+				</section>			       
+	        </div>
+	        <div class="swiper-slide" spa-widget="scroll">
+	        	<section class="ifySection">
+						<div class="marginLeft"></div>
+						<div class="content">
+							<ul>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+								<li></li>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+								<li></li>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+								<li></li>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+							</ul>
+							
+						</div>
+						<div class="marginRight"></div>	
+				</section>			       
+	        </div>
+	        <div class="swiper-slide" spa-widget="scroll">
+	        	<section class="ifySection">
+						<div class="marginLeft"></div>
+						<div class="content">
+							<ul>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+								<li></li>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+								<li></li>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+								<li></li>
+								<li>
+									<img src="/kaleidoscope-story/images/child.gif"/></dt>
+									<p>儿童幽默馆</p>
+								</li>
+							</ul>
+							
+						</div>
+						<div class="marginRight"></div>	
+				</section>			       
+	        </div>
+	    </div>
+	</div>
+	
+</div>

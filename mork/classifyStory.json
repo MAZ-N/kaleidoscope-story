@@ -1,0 +1,133 @@
+{
+    "data": {
+        "0": {
+            "id": "200",
+            "name": "万花筒小报",
+            "weight": "40",
+            "brief": "该分类对应故事网站编辑推荐，默认隐藏",
+            "icon": "http://ikinvin.qiniudn.com/upload/gallery/client/3D60A4F0-8D3D-8151-7B9F61691236.jpg",
+            "hide": 0,
+            "count": 122
+        },
+        "2": {
+            "id": "103",
+            "name": "小王子",
+            "weight": "40",
+            "brief": "圣埃克苏佩里的小王子。",
+            "icon": "http://ikinvin.qiniudn.com/upload/gallery/client/54B7CF73-43CA-5061-5D638172BFAC.jpg",
+            "hide": 0,
+            "count": 27
+        },
+        "4": {
+            "id": "104",
+            "name": "凯叔讲故事",
+            "weight": "40",
+            "brief": "凯叔讲故事",
+            "icon": "http://ikinvin.qiniudn.com/upload/gallery/client/5D5A862F-AFC5-4686-9D5F0BC2C693.jpg",
+            "hide": 0,
+            "count": 9
+        },
+        "5": {
+            "id": "1",
+            "name": "安徒生童话",
+            "weight": "39",
+            "brief": "海的女儿，打火匣，丑小鸭",
+            "icon": "http://ikinvin.qiniudn.com/upload/gallery/client/A7B7938C-7563-1467-74F82F45B316.jpg",
+            "hide": 0,
+            "count": 217
+        },
+        "6": {
+            "id": "101",
+            "name": "了不起的狐狸爸爸",
+            "weight": "39",
+            "brief": "了不起的狐狸爸爸童话故事",
+            "icon": "http://ikinvin.qiniudn.com/upload/gallery/client/B2BC69D7-4664-7471-80D863995E0C.jpg",
+            "hide": 0,
+            "count": 10
+        },
+        "7": {
+            "id": "7",
+            "name": "民间故事",
+            "weight": "38",
+            "brief": "传奇故事、才子佳人、生活故事",
+            "icon": "http://ikinvin.qiniudn.com/upload/gallery/client/F4159B78-8704-6643-E480BDA263F4.jpg",
+            "hide": 0,
+            "count": 1760
+        },
+        "8": {
+            "id": "2",
+            "name": "格林童话",
+            "weight": "35",
+            "brief": "正义与邪恶、勇敢与怯懦",
+            "icon": "http://ikinvin.qiniudn.com/upload/gallery/client/90384AD1-4B8C-6954-ACB0D92F1BF1.jpg",
+            "hide": 0,
+            "count": 206
+        },
+        "9": {
+            "id": "5",
+            "name": "儿童故事",
+            "weight": "28",
+            "brief": "动植物等有教育意义的小故事",
+            "icon": "http://ikinvin.qiniudn.com/upload/gallery/client/C7F2F95E-F3AA-5532-A59A7CA4B99C.jpg",
+            "hide": 0,
+            "count": 3671
+        },
+        "10": {
+            "id": "3",
+            "name": "一千零一夜",
+            "weight": "26",
+            "brief": "执著于幸福爱情，憧憬美好生活",
+            "icon": "http://ikinvin.qiniudn.com/upload/gallery/client/29FC24AF-5B71-2137-0C9D35514314.jpg",
+            "hide": 0,
+            "count": 33
+        },
+        "12": {
+            "id": "6",
+            "name": "寓言故事",
+            "weight": "21",
+            "brief": "小故事大道理，长知识 辨是非",
+            "icon": "http://ikinvin.qiniudn.com/upload/gallery/client/59490BCA-C0FA-3892-4ADE0EAED658.jpg",
+            "hide": 0,
+            "count": 2570
+        },
+        "13": {
+            "id": "4",
+            "name": "童话故事",
+            "weight": "21",
+            "brief": "认识社会、理解生活，通达事理",
+            "icon": "http://ikinvin.qiniudn.com/upload/gallery/client/5E30CD21-F46D-7972-0F4484D9AB8F.jpg",
+            "hide": 0,
+            "count": 3284
+        },
+        "14": {
+            "id": "8",
+            "name": "神话故事",
+            "weight": "17",
+            "brief": "嫦娥奔月，夸父追日，女娲造人",
+            "icon": "http://ikinvin.qiniudn.com/upload/gallery/client/4C51B5FC-E64F-3118-2317652A68A8.jpg",
+            "hide": 0,
+            "count": 267
+        },
+        "15": {
+            "id": "10",
+            "name": "成语故事",
+            "weight": "15",
+            "brief": "亡羊补牢，叶公好龙，画蛇添足",
+            "icon": "http://ikinvin.qiniudn.com/upload/gallery/client/A942898F-B4B4-4649-3A61A73EFEC6.jpg",
+            "hide": 0,
+            "count": 186
+        },
+        "19": {
+            "id": "102",
+            "name": "儿童幽默馆",
+            "weight": "0",
+            "brief": "幽默话语，童言无忌，纯真无邪",
+            "icon": "http://ikinvin.qiniudn.com/upload/gallery/client/D76F0E00-1A5B-8025-EBCBD1DE311B.jpg",
+            "hide": 0,
+            "count": 40
+        }
+    },
+    "timesec": 1466845160,
+    "ec": 200,
+    "em": "获取成功"
+}

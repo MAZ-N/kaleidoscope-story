@@ -1,0 +1,325 @@
+<div class="home">
+	<header>
+		<ul>
+			<li><i></i></li>
+			<li><i>万花筒</i></li>
+			<li><i class="yo-ico">&#xe61b;</i></li>
+		</ul>
+	</header>
+	<nav>
+		<ul>
+			<li class="active" action-type="active"><em>故事</em></li>
+			<li action-type="active"><em>儿歌</em></li>
+			<li action-type="active"><em>动画</em></li>
+			<li action-type="active"><em>童书</em></li>
+		</ul>	
+	</nav>
+			<div class="swiper-container" id="sectSwiper">
+			    <div class="swiper-wrapper" id="swiper-wrapper">
+			        <div class="swiper-slide b" spa-widget="scroll" data-scroll-id="homeHotScroll">
+<!--故事-->			        	<section class="sectCen" >
+									<div class="marginLeft"></div>
+									<div class="content">
+										<div class="head">
+						                      <img src="/kaleidoscope-story/images/drawable-hdpi/ic_pulltorefresh_arrow.png" />
+						                      <span>
+						                      	<b>下拉刷新...</b>
+						                      	<i>更新于</i>
+						                      </span>
+						                 </div>
+										<div class="swiper-container" id="swiper">
+										    <div class="swiper-wrapper">
+										        <div class="swiper-slide">
+										        	<img src="/kaleidoscope-story/images/banner.gif"/>
+													<p>
+														<span>学古诗</span>
+													</p>
+										        </div>
+										        <div class="swiper-slide">
+										        	<img src="/kaleidoscope-story/images/banner.gif"/>
+													<p>
+														<span>学古诗</span>
+													</p>
+										        </div>
+										        <div class="swiper-slide">
+										        	<img src="/kaleidoscope-story/images/banner.gif"/>
+													<p>
+														<span>学古诗</span>
+													</p>
+										        </div>
+										        <div class="swiper-slide">
+										        	<img src="/kaleidoscope-story/images/banner.gif"/>
+													<p>
+														<span>学古诗</span>
+													</p>
+										        </div>
+										        <div class="swiper-slide">
+										        	<img src="/kaleidoscope-story/images/banner.gif"/>
+													<p>
+														<span>学古诗</span>
+													</p>
+										        </div>
+										    </div>
+										    <!-- 如果需要分页器 -->
+										    <div class="swiper-pagination"></div>
+										</div>               <!--value 是自定义名称-->
+										<div class="routine" ms-repeat-value="homestory" action-type="sonShow" ms-attr-data-id ="value.id">
+											<dl>
+												<dt><img ms-src="value.thumbnail"></dt>
+												<dd> <!--ms-text绑定-->
+													<p ms-text="value.title"></p>
+													<span ms-text="value.cname"></span>
+													<em><img src="/kaleidoscope-story/images/drawable-hdpi/icon_love.png"/><b ms-text="value.keep_num">449</b></em>
+												</dd>
+											</dl>
+											<div class="download">
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_play.png"/>
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_down.png"/>
+											</div>
+										</div>
+										
+										 <div class="foot">
+						                    <img src="/kaleidoscope-story/images/drawable-hdpi/icon_play_circle.png" />
+						                    <span>加载中...</span>
+										</div>
+								<div class="marginRight"></div>	
+						</section>
+			        </div>
+<!--儿歌-->			        <div class="swiper-slide b" spa-widget="scroll">
+			        	<section class="sectCen" >
+								<div class="marginLeft"></div>
+								<div class="content">
+									<div class="routine">
+										<dl>
+											<dt><img src="/kaleidoscope-story/images/section-2.gif"/></dt>
+											<dd>
+												<p>莴苣姑娘</p>
+												<span>格林童话</span>
+												<em><img src="/kaleidoscope-story/images/drawable-hdpi/icon_love.png"/><b>449</b></em>
+											</dd>
+										</dl>
+										<div class="download">
+											<img src="/kaleidoscope-story/images/drawable-hdpi/icon_play.png"/>
+											<img src="/kaleidoscope-story/images/drawable-hdpi/icon_down.png"/>
+										</div>
+									</div>
+									<div class="routine">
+										<dl>
+											<dt><img src="/kaleidoscope-story/images/section-2.gif"/></dt>
+											<dd>
+												<p>莴苣姑娘</p>
+												<span>格林童话</span>
+												<em><img src="/kaleidoscope-story/images/drawable-hdpi/icon_love.png"/><b>449</b></em>
+											</dd>
+										</dl>
+										<div class="download">
+											<img src="/kaleidoscope-story/images/drawable-hdpi/icon_play.png"/>
+											<img src="/kaleidoscope-story/images/drawable-hdpi/icon_down.png"/>
+										</div>
+									</div>
+									<div class="routine">
+										<dl>
+											<dt><img src="/kaleidoscope-story/images/section-2.gif"/></dt>
+											<dd>
+												<p>莴苣姑娘</p>
+												<span>格林童话</span>
+												<em><img src="/kaleidoscope-story/images/drawable-hdpi/icon_love.png"/><b>449</b></em>
+											</dd>
+										</dl>
+										<div class="download">
+											<img src="/kaleidoscope-story/images/drawable-hdpi/icon_play.png"/>
+											<img src="/kaleidoscope-story/images/drawable-hdpi/icon_down.png"/>
+										</div>
+									</div>
+									<div class="routine">
+										<dl>
+											<dt><img src="/kaleidoscope-story/images/section-2.gif"/></dt>
+											<dd>
+												<p>莴苣姑娘</p>
+												<span>格林童话</span>
+												<em><img src="/kaleidoscope-story/images/drawable-hdpi/icon_love.png"/><b>449</b></em>
+											</dd>
+										</dl>
+										<div class="download">
+											<img src="/kaleidoscope-story/images/drawable-hdpi/icon_play.png"/>
+											<img src="/kaleidoscope-story/images/drawable-hdpi/icon_down.png"/>
+										</div>
+									</div>
+									<div class="routine">
+										<dl>
+											<dt><img src="/kaleidoscope-story/images/section-2.gif"/></dt>
+											<dd>
+												<p>莴苣姑娘</p>
+												<span>格林童话</span>
+												<em><img src="/kaleidoscope-story/images/drawable-hdpi/icon_love.png"/><b>449</b></em>
+											</dd>
+										</dl>
+										<div class="download">
+											<img src="/kaleidoscope-story/images/drawable-hdpi/icon_play.png"/>
+											<img src="/kaleidoscope-story/images/drawable-hdpi/icon_down.png"/>
+										</div>
+									</div>
+								</div>
+								<div class="marginRight"></div>	
+						</section>
+			        </div>
+<!--动画-->			    <div class="swiper-slide b" spa-widget="scroll">
+				        	<section class="sectCen">
+									<div class="marginLeft"></div>
+									<div class="content">
+										<div class="routine">
+											<dl>
+												<dt><img src="/kaleidoscope-story/images/section-2.gif"/></dt>
+												<dd>
+													<p>莴苣姑娘</p>
+													<span>格林童话</span>
+													<em><img src="/kaleidoscope-story/images/drawable-hdpi/icon_love.png"/><b>449</b></em>
+												</dd>
+											</dl>
+											<div class="download">
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_play.png"/>
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_down.png"/>
+											</div>
+										</div>
+										<div class="routine">
+											<dl>
+												<dt><img src="/kaleidoscope-story/images/section-2.gif"/></dt>
+												<dd>
+													<p>莴苣姑娘</p>
+													<span>格林童话</span>
+													<em><img src="/kaleidoscope-story/images/drawable-hdpi/icon_love.png"/><b>449</b></em>
+												</dd>
+											</dl>
+											<div class="download">
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_play.png"/>
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_down.png"/>
+											</div>
+										</div>
+										<div class="routine">
+											<dl>
+												<dt><img src="/kaleidoscope-story/images/section-2.gif"/></dt>
+												<dd>
+													<p>莴苣姑娘</p>
+													<span>格林童话</span>
+													<em><img src="/kaleidoscope-story/images/drawable-hdpi/icon_love.png"/><b>449</b></em>
+												</dd>
+											</dl>
+											<div class="download">
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_play.png"/>
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_down.png"/>
+											</div>
+										</div>
+										<div class="routine">
+											<dl>
+												<dt><img src="/kaleidoscope-story/images/section-2.gif"/></dt>
+												<dd>
+													<p>莴苣姑娘</p>
+													<span>格林童话</span>
+													<em><img src="/kaleidoscope-story/images/drawable-hdpi/icon_love.png"/><b>449</b></em>
+												</dd>
+											</dl>
+											<div class="download">
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_play.png"/>
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_down.png"/>
+											</div>
+										</div>
+										<div class="routine">
+											<dl>
+												<dt><img src="/kaleidoscope-story/images/section-2.gif"/></dt>
+												<dd>
+													<p>莴苣姑娘</p>
+													<span>格林童话</span>
+													<em><img src="/kaleidoscope-story/images/drawable-hdpi/icon_love.png"/><b>449</b></em>
+												</dd>
+											</dl>
+											<div class="download">
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_play.png"/>
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_down.png"/>
+											</div>
+										</div>
+									</div>
+									<div class="marginRight"></div>	
+							</section>
+			       		</div>
+<!--童书-->			    <div class="swiper-slide b" spa-widget="scroll">
+				      		<section class="sectCen" >
+									<div class="marginLeft"></div>
+									<div class="content">
+										<div class="routine">
+											<dl>
+												<dt><img src="/kaleidoscope-story/images/section-2.gif"/></dt>
+												<dd>
+													<p>莴苣姑娘</p>
+													<span>格林童话</span>
+													<em><img src="/kaleidoscope-story/images/drawable-hdpi/icon_love.png"/><b>449</b></em>
+												</dd>
+											</dl>
+											<div class="download">
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_play.png"/>
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_down.png"/>
+											</div>
+										</div>
+										<div class="routine">
+											<dl>
+												<dt><img src="/kaleidoscope-story/images/section-2.gif"/></dt>
+												<dd>
+													<p>莴苣姑娘</p>
+													<span>格林童话</span>
+													<em><img src="/kaleidoscope-story/images/drawable-hdpi/icon_love.png"/><b>449</b></em>
+												</dd>
+											</dl>
+											<div class="download">
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_play.png"/>
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_down.png"/>
+											</div>
+										</div>
+										<div class="routine">
+											<dl>
+												<dt><img src="/kaleidoscope-story/images/section-2.gif"/></dt>
+												<dd>
+													<p>莴苣姑娘</p>
+													<span>格林童话</span>
+													<em><img src="/kaleidoscope-story/images/drawable-hdpi/icon_love.png"/><b>449</b></em>
+												</dd>
+											</dl>
+											<div class="download">
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_play.png"/>
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_down.png"/>
+											</div>
+										</div>
+										<div class="routine">
+											<dl>
+												<dt><img src="/kaleidoscope-story/images/section-2.gif"/></dt>
+												<dd>
+													<p>莴苣姑娘</p>
+													<span>格林童话</span>
+													<em><img src="/kaleidoscope-story/images/drawable-hdpi/icon_love.png"/><b>449</b></em>
+												</dd>
+											</dl>
+											<div class="download">
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_play.png"/>
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_down.png"/>
+											</div>
+										</div>
+										<div class="routine">
+											<dl>
+												<dt><img src="/kaleidoscope-story/images/section-2.gif"/></dt>
+												<dd>
+													<p>莴苣姑娘</p>
+													<span>格林童话</span>
+													<em><img src="/kaleidoscope-story/images/drawable-hdpi/icon_love.png"/><b>449</b></em>
+												</dd>
+											</dl>
+											<div class="download">
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_play.png"/>
+												<img src="/kaleidoscope-story/images/drawable-hdpi/icon_down.png"/>
+											</div>
+										</div>
+									</div>
+									<div class="marginRight"></div>	
+							</section>
+			       	 	</div>
+			        </div>
+				</div>
+		</div>		
+</div>

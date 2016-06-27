@@ -1,0 +1,45 @@
+<div class="more">
+	<header>
+		<ul>
+			<li><i></i></li>
+			<li><i>更多</i></li>
+			<li><i></i></li>
+		</ul>
+	</header>
+	<div class="login">
+		<dl class="loginPer">
+			<dt><img src="/kaleidoscope-story/images/drawable-hdpi/default_photo2.png"/></dt>
+			<dd>未登录</dd>
+		</dl>
+		<ul class="loginList">
+			<li>
+				<span class="loginBtn">
+					登录
+				</span>
+			</li>
+			<li>
+				<img src="/kaleidoscope-story/images/drawable-hdpi/icon_pluse.png"/>
+			</li>
+		</ul>
+	</div>
+	<section>
+		<div class="marginLeft"></div>
+		<div class="content">	
+			<ul>
+				<li><span>下载</span></li>
+				<li></li>
+				<li><span>收藏</span></li>
+				<li></li>
+				<li><span>设置</span></li>
+			</ul>
+			<ul>
+				<li style="background: url(/kaleidoscope-story/images/drawable-hdpi/icon_more_msg.png);  background-size: cover;"><span>反馈</span></li>
+				<li></li>
+				<li style="background: url(/kaleidoscope-story/images/drawable-hdpi/icon_more_about.png);  background-size: cover;"><span>收藏</span></li>
+				<li></li>
+				<li style="background: none;"></li>
+			</ul>
+		</div>
+		<div class="marginRight"></div>
+	</section>
+</div>

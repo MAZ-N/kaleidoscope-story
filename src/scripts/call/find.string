@@ -1,0 +1,35 @@
+<div class="home find">
+	<header>
+		<ul>
+			<li><i></i></li>
+			<li><i>发现</i></li>
+			<li><i></i></li>
+		</ul>
+	</header>
+	<section>
+		<div class="marginLeft"></div>
+		<div class="content">
+			<ul>
+				<li><img src="/kaleidoscope-story/images/drawable-hdpi/icon_xiaobao.png"/></li>
+				<li>万花筒小报</li>
+				<li><img src="/kaleidoscope-story/images/drawable-hdpi/icon_pluse.png"/></li>
+			</ul>
+			<ul>
+				<li><img src="/kaleidoscope-story/images/drawable-hdpi/icon_kid.png"/></li>
+				<li>儿童幽默馆</li>
+				<li><img src="/kaleidoscope-story/images/drawable-hdpi/icon_pluse.png"/></li>
+			</ul>
+			<ul>
+				<li><img src="/kaleidoscope-story/images/drawable-hdpi/icon_shequ.png"/></li>
+				<li>美妈微社区</li>
+				<li><img src="/kaleidoscope-story/images/drawable-hdpi/icon_pluse.png"/></li>
+			</ul>
+			<ul>
+				<li><img src="/kaleidoscope-story/images/drawable-hdpi/icon_shangcheng.png"/></li>
+				<li>潮童微商城</li>
+				<li><img src="/kaleidoscope-story/images/drawable-hdpi/icon_pluse.png"/></li>
+			</ul>
+		</div>
+		<div class="marginRight"></div>
+	</section>
+</div>
