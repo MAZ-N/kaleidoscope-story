@@ -34,7 +34,7 @@ SPA.defineView('homeStoryContent',{
 				success: function(rs){
 					vm.title = rs.article.title;
 					vm.imgsrc = rs.article.thumbnail;
-					vm.content = rs.article.content;
+					vm.content = eval(rs.article.content);
 					vm.audio_link = rs.article.audio_link;
 					vm.cname = rs.article.cname;
 				}
