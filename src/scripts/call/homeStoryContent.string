@@ -11,7 +11,7 @@
 			<h4>{{title}}</h4>
 			<span>{{cname}}</span>
 			<p><img ms-src='imgsrc'/></p>
-			{{content}}
+			{{content | html}}
 		</div>
 		
 	</section>
